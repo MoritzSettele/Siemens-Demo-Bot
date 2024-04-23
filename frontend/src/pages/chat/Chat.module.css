@@ -75,7 +75,7 @@
 .chatMessageUserMessage {
   display: flex;
   padding: 20px;
-  background: #d0e7f5;
+  background-color: white;
   border-radius: 3px;
   font-style: normal;
   font-weight: 400;
@@ -88,12 +88,13 @@
   word-wrap: break-word;
   box-shadow: 0px 4px 32px -8px rgba(0, 0, 0, 0.16);
   margin-bottom: 35px;
+  border: 1px solid  #E0E0E0;
 }
 
 .chatMessageUserMessageUser {
   width: 48px;
   height: 48px;
-  background: #d0e7f5;
+  /* background: #d0e7f5; */
   border-radius: 50%;
   margin-left: 30px;
   display: flex;
@@ -363,8 +364,16 @@ a {
 }
 
 .botIcon {
-  margin-right: 34px;
+  margin-right: 32px;
+
 }
+
+.botIcon img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
 
 .ldsRing {
   display: inline-block;

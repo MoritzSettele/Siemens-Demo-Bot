@@ -11,7 +11,7 @@ import DOMPurify from 'dompurify';
 
 import styles from "./Chat.module.css";
 import Logo  from "../../assets/restart-message.svg";
-import SiemensUser from "../../assets/SiemensUser.svg";
+import SiemensUser from "../../assets/LogoSiemens.png";
 import { XSSAllowTags } from "../../constants/xssAllowTags";
 
 import {
